@@ -10,8 +10,10 @@
           box-sizing: border-box;
         }
         
-        .row {
-          display: flex;
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
         }
         
         /* Create two equal and adjacent columns  */
@@ -21,7 +23,7 @@
           padding: 10px;
           
         }
-        </style>
+    </style>
 </head>
 <body>
     <h1>
