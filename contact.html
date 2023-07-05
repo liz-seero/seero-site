@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elizabeth Darlin Seero</title>
+
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        /* Create two equal columns that floats next to each other */
+        .column {
+          float: left;
+          width: 50%;
+          padding: 10px;
+          height:auto;
+        }
+        
+        /* Clear floats after the columns */
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+        }
+
+        li {
+          float: left;
+        }
+
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 20px 16px;
+          text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+          background-color: #111;
+        }
+
+        .active {
+          background-color: #04AA6D;
+        }
+
+ </style>
+
+</head>
+<body>
+    <h1>
+        Elizabeth Darlin Seero
+    </h1>
+
+    <ul>
+      <li><a  href="index.html">Home</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a  href="research.html">Research</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a class="active" href="contact.html">Contact</a></li>
+    </ul>
+    
+ 
+
+      
+
+    
+
+    
+</body>
+</html>
+
+<!-- using vercel to host site -->
