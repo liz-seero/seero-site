@@ -24,6 +24,34 @@
           display: table;
           clear: both;
         }
+        
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+        }
+
+        li {
+          float: left;
+        }
+
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 20px 16px;
+          text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+          background-color: #111;
+        }
+
+        .active {
+          background-color: #04AA6D;
+        }
 
  </style>
 
@@ -32,6 +60,14 @@
     <h1>
         Elizabeth Darlin Seero
     </h1>
+
+    <ul>
+      <li><a class="active" href="index.html">Home</a></li>
+      <li><a href="research.html">Resume</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
     
     <div class="row">
         <div class="column" style="text-align: center;margin-top: 70px;">
