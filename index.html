@@ -52,7 +52,19 @@
         .active {
           background-color: #8e04aa;
         }
+        .button {
+      background-color: #000000;
+      color: white;
+      padding: 14px 28px;
+      font-size: 16px;
+      cursor: pointer;
+      text-align: center;
+      border-radius: 15%;
+      position: absolute;
+    
+    }
 
+      
  </style>
 
 </head>
@@ -73,27 +85,57 @@
     </div>
 
     <div class="row">
-        <div class="column" style="text-align: center;">
+        <div class="column" style="text-align: center;width:40%">
             
-         
-            <img src="prof-pic-website.jpg" alt="profile picture"
-         style="width: 280px;height: 350px;">
+          <img src="prof-pic-website.jpg" alt="profile picture"
+          style="width: 280px;height: 350px;">
+ 
+
         </div>
-        <div class="column" style="text-align: left;background: white;margin-top: 50px;">
+        <div class="column" style="text-align: left;background: white;margin-top: 50px;width:50%">
           <p>I am a recent graduate from Colorado College with a Bachelor of Liberal Arts with a major in Computer Science.
              Born and raised in Boston, I plan to remain on the East Coast after living in Colorado Springs, CO for the past four years.
             At Colorado College, I was an active participant in the Computer Science department, 
-            and my work is listed in the Resume page, as well as a more detailed description of my undergraduate research under the Research page.
-        Additionally, I have created a number of mini-game projects under the Portfolio tab. Please feel free to reach out with any questions or comments in the below form, or in the Contact page.  </p>
+            and my work is listed in the <a href="resume.html">Resume</a> page, as well as a more detailed description of my undergraduate research under the <a href="research.html">Research</a> page.
+         Please feel free to reach out with any questions or comments in the below form, or in the <a href="contact.html">Contact</a> page.  To view the code on Github for this website, or my senior thesis project, visit my <a href="portfolio.html">Portfolio page</a>. </p>
+        
+   
         </div>
+        <div class="column" style="width:10%"></div>
+      </div>
+      <div class="row">
+        <div class="column" style="width:25%;text-align: center;">
+          <form action="research.html">
+            <button type="submit" class="button">Research</button>
+          </form>
+                </div>
+        <div class="column" style="width:25%;text-align: center;">
+          <form action="resume.html">
+            <button type="submit" class="button">Resume</button>
+          </form>
+                </div>       
+        <div class="column" style="width:25%;text-align: center;">
+          <form action="contact.html">
+            <button type="submit" class="button">Contact</button>
+          </form>
+                </div>
+  
+        <div class="column" style="width:25%;text-align: center;">
+          <form action="portfolio.html">
+            <button type="submit" class="button">Portfolio</button>
+          </form>
+                </div>
       </div>
 
       
 
-    
+      <footer>
+        <p>text?</p>
+      </footer>
 
     
 </body>
+
 </html>
 
 <!-- using vercel to host site -->
