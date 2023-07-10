@@ -13,7 +13,7 @@
         /* Create two equal columns that floats next to each other */
         .column {
           float: left;
-          width: 50%;
+          width: 30%;
           padding: 10px;
           height:auto;
         }
@@ -21,6 +21,7 @@
         /* Clear floats after the columns */
         .row:after {
           content: "";
+          width:60%;
           display: table;
           clear: both;
         }
@@ -53,6 +54,27 @@
           background-color: #c75e1d;
         }
 
+        
+  .vertical-menu {
+  width: 300px;
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+.vertical-menu a.active {
+  background-color: #aa0481;
+  color: white;
+}
+
  </style>
 
 </head>
@@ -69,11 +91,66 @@
       <li><a href="contact.html">Contact</a></li>
     </ul>
     
+
+    <div style="text-align: center;">
+      <h1>Portfolio</h1></div>
+
+    <div style="width:100%; padding-left: 10%; padding-right: 10%;">   <p>Below I have included my Senior Thesis Project, alongside the Github repository, alongside the Github repository for this site.
+      If you have any questions please <a href="contact.html" target="_blank">reach out</a> and I will get back to you as soon as I can. Both of these
+    projects were developed independantly this year, timelines for which are included in the descriptions.
+    </p>
+  </div>
  
+    <div class="row">
+      <div class="column" style="text-align: center;">
+        <h3>Thesis Project</h3>
+      </div>
+      <div class="column" style="width:60%;">
+        <hr>
+        <p>
+          In the Spring of 2023 I developed a minial front end web application inspired by Health tracking applications
+          and journaling in order to encourage healthy self-reflection. This project took approximately one month, icluding planning and development. In the site you can log different events, similar to a Diary 
+          for specific time periods such as a gym workout, meeting at work, or team project, and leave information attatched to that event such as the individuals 
+          you were with, the emotional rating of that event (how positively or negatively you experienced the event) and a description.
+        </p>
+        <div class="vertical-menu">
+          <a href="https://min-web-app.vercel.app/index.html" target="_blank">Visit the Journal Program</a>
+          <a href="https://github.com/liz-seero/MinWebApp" target="_blank">Visit the Github for Journal Program</a>
+
+        </div>
+        <p> 
+          This application was created with HTML, css, and JavaScript. All information is saved in local storage in the current web browser, but can be saved and shared to any device.
+        There is also an option to generate test data in order to play around with the applciation without having to input information. Origionally hosted with Google Cloud, I have recently reuploaded with site to GitHub in order to host through Vercel. </p>
+      </div>
+      
+
+    </div>
+    
+
+    <div class="row">
+      <div class="column" style="text-align: center;">
+        <h3>Personal Website</h3>
+      </div>
+      <div class="column" style="width:60%">
+        <hr>
+        <p>This site was created with HTML and css. You can view the code for this website below on my GitHub.
+          This website took approximately one week to develop. 
+        </p>
+        <div class="vertical-menu">
+          <a href="https://github.com/liz-seero/seero-site" target="_blank">Github for this website</a>
+
+        </div>
+        
+      </div>
+    </div>
+    
 
       
 
-    
+    <footer>
+      <div style="text-align: center;">  <p>This website was made by Elizabeth (Liz) Seero, email elizabethseero@gmail.com for more. </p>
+      </div>
+    </footer>
 
     
 </body>
