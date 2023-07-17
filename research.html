@@ -43,7 +43,7 @@
           overflow: hidden;
           background-color: #01151b;
           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-          letter-spacing: 1.5px;
+          letter-spacing: 2px;
         }
 
         li {
@@ -63,7 +63,7 @@
         }
 
         .active {
-          background-color: #34b925;
+          background-color: #8e04aa;
         }
 
   .vertical-menu {
@@ -71,7 +71,7 @@
 }
 
 .vertical-menu a {
-  background-color: #eee;
+  background:rgb(244, 245, 230);
   color: black;
   display: block;
   padding: 12px;
@@ -89,6 +89,20 @@ body{
 
 background-image: url(ocean_background.jpg);
 
+}
+p{
+  background: rgb(244, 245, 230);
+  font-family:  'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 0.75px;
+  line-height: 1.5;
+}
+h2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1.5px;
+}
+h3{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1.5px;
 }
 
  </style>
@@ -110,7 +124,9 @@ background-image: url(ocean_background.jpg);
 
     <a id="top"></a>
 
-    <h1 style="text-align:center;">Research</h1>
+    <div style="text-align: center;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1.5px;">
+    <h1 style="text-align:center;">Research</h1></div>
     
 
     <div class="row">
@@ -143,7 +159,7 @@ background-image: url(ocean_background.jpg);
         </a>
 
       </div>
-      <div class="column middle">
+      <div class="column middle" style="background:rgb(244, 245, 230)">
         <h2>CHASE 2023</h2>
         <a href ="https://www.computer.org/csdl/proceedings-article/chase/2023/373400a037/1OtOwoBqpxu"> Link to paper</a>
 
@@ -181,7 +197,7 @@ background-image: url(ocean_background.jpg);
         </a>
 
       </div>
-      <div class="column middle" >
+      <div class="column middle" style="background:rgb(244, 245, 230)">
         <hr>
         <h2>Honorable Mention</h2>
         
@@ -199,14 +215,14 @@ background-image: url(ocean_background.jpg);
     </div>
  
     <div class="row">
-      <div class="column left" style="width:25%;" >
+      <div class="column left"  >
         <a id="2022">
           <h2>Individual Research 2022</h2>
 
         </a>
         <a href="2022_pos.pdf" download> Download 2022 poster   </a>
             </div>
-      <div class="column middle" style="background-color:#ffffff;">
+      <div class="column middle" style="background: rgb(244, 245, 230);">
         <h3> Description</h3>
 
         <p>Meetings are a central component of software development, creating a need for effective support tools to aid participants.
@@ -231,7 +247,7 @@ background-image: url(ocean_background.jpg);
 <div class="row">
   <div class="column left" >
   </div>
-  <div class="column middle" style="background-color:#ffffff;width:70%;">
+  <div class="column middle" style="width:70%;">
 
     <img src="res_pos_2022.jpg" style="width: 700px;height: 500px;" justify-content="center">
 
@@ -241,7 +257,7 @@ background-image: url(ocean_background.jpg);
 <div class="row">
   <div class="column left" style="width: 25%;">
   </div>
-  <div class="column middle" style="background-color:#ffffff;">
+  <div class="column middle" style="background: rgb(244, 245, 230);">
     <div style="text-align: left;">
       <a href="2022_pos.pdf"  download >
         For larger text - Download 2022 poster here
@@ -272,7 +288,7 @@ background-image: url(ocean_background.jpg);
       Download 2021 poster
      </a>
             </div>
-  <div class="column middle" style="background-color:#ffffff;">
+  <div class="column middle" style="background: rgb(244, 245, 230);">
     <hr>
 
     <h3> Description</h3>
@@ -297,7 +313,7 @@ background-image: url(ocean_background.jpg);
   <div class="column left" >
   </div>
  
-  <div class="column middle" style="background-color:#ffffff;width:70%;">
+  <div class="column middle" style="width:70%;">
 
     <img src="res_pos_2021.jpg" style="width: 700px;height: 500px;" justify-content="center">
    
@@ -308,7 +324,7 @@ background-image: url(ocean_background.jpg);
 <div class="row">
   <div class="column left" style="width:25%;">
   </div>
-  <div class="column middle" style="background-color:#ffffff;">
+  <div class="column middle" style="background: rgb(244, 245, 230);">
  
     <p>Meetings are a critical part of our work and academic life, both in person and remotely. This summer, our team, along with another research team at the University of California, Irvine, analyzed the videos and transcripts of 10 distributed design meetings from a major healthcare software development company. Our goal was to understand the issues that arise within such meetings that may inhibit efficiency of the team or the ability to produce quality product. We began by creating a coding taxonomy to classify and organize our data. Our two primary areas of interest were to understand the types and frequency of tool use, and to understand the role of information both present and missing from meetings. After analyzing our coded data, we found that when  designers were missing information  they went ahead and made decisions anyway 44.2% of the time. Moving ahead while missing critical information could result in decisions that could impact the quality of software. The goal of this research is to understand what happens in meetings and to use that information to support development of tools intended to aid designers
       in making better decisions by capturing and presenting critical information.</p>
